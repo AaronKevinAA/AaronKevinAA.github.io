@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,N as n}from"./chunks/framework.0799945b.js";const u=JSON.parse('{"title":"开放题","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/open/index.md"}'),s={name:"FrontEnd/open/index.md"},a=n("",4),r=[a];function c(_,i,d,p,l,m){return o(),e("div",null,r)}const f=t(s,[["render",c]]);export{u as __pageData,f as default};
