@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.0799945b.js";const d=JSON.parse('{"title":"url参数解析","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/js&css/url-parse.md"}'),e={name:"FrontEnd/js&css/url-parse.md"},p=l("",3),o=[p];function c(t,r,C,A,i,u){return a(),n("div",null,o)}const D=s(e,[["render",c]]);export{d as __pageData,D as default};
