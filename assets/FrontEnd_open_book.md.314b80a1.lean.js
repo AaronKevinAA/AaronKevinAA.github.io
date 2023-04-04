@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as e,N as n}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"最近读的一本书是什么？","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/open/book.md"}'),a={name:"FrontEnd/open/book.md"},r=n("",7),s=[r];function _(p,c,d,i,l,h){return e(),o("div",null,s)}const g=t(a,[["render",_]]);export{f as __pageData,g as default};
