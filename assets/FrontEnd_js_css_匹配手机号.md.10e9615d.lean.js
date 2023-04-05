@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,N as e}from"./chunks/framework.0799945b.js";const h=JSON.parse('{"title":"正则：匹配手机号","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/js&css/匹配手机号.md"}'),l={name:"FrontEnd/js&css/匹配手机号.md"},p=e("",9),o=[p];function t(c,r,i,_,d,C){return n(),a("div",null,o)}const m=s(l,[["render",t]]);export{h as __pageData,m as default};

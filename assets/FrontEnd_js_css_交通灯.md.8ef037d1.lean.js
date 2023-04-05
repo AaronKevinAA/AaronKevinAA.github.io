@@ -1,0 +1,1 @@
+import{_ as s,c as n,o as a,N as l}from"./chunks/framework.0799945b.js";const _=JSON.parse('{"title":"交通灯","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/js&css/交通灯.md"}'),p={name:"FrontEnd/js&css/交通灯.md"},e=l("",2),o=[e];function c(t,r,C,i,A,y){return a(),n("div",null,o)}const d=s(p,[["render",c]]);export{_ as __pageData,d as default};
