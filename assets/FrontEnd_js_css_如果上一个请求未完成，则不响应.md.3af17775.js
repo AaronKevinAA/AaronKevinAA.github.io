@@ -23,7 +23,7 @@ import{_ as s,c as n,o as a,N as l}from"./chunks/framework.0799945b.js";const u=
 <span class="line"><span style="color:#A6ACCD;">    console.log(&quot;这次可以调用成功了&quot;)</span></span>
 <span class="line"><span style="color:#A6ACCD;">    callPromiseFn()</span></span>
 <span class="line"><span style="color:#A6ACCD;">}, 1200)</span></span>
-<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>首先相当于同时能只能运行一个异步函数，则联想到用闭包的私有变量控制当前的运行个数</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">function callAsyncFunction(promiseFn) {</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><p>题目的意思相当于同时能只能运行一个异步函数，则联想到用闭包的私有变量控制当前的运行个数</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">function callAsyncFunction(promiseFn) {</span></span>
 <span class="line"><span style="color:#A6ACCD;">    // 利用闭包的概念，构造私有变量</span></span>
 <span class="line"><span style="color:#A6ACCD;">    let runningTask = 0;</span></span>
 <span class="line"><span style="color:#A6ACCD;">    // 封装一个方法回去，这个方法返回的值是一个promise</span></span>

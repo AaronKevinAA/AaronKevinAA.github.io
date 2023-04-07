@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as p,N as a}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"八股","description":"","frontmatter":{},"headers":[],"relativePath":"FrontEnd/bagu/index.md"}'),r={name:"FrontEnd/bagu/index.md"},n=a("",13),s=[n];function o(c,i,_,d,l,u){return p(),t("div",null,s)}const m=e(r,[["render",o]]);export{f as __pageData,m as default};
